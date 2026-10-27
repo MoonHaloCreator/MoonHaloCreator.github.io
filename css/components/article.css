@@ -141,6 +141,115 @@ article p {
   margin: 2rem 0;
   line-height: 1.8;
 }
+article .article-content .entry h1,
+article .article-content .entry h2,
+article .article-content .entry h3,
+article .article-content .entry h4,
+article .article-content .entry h5,
+article .article-content .entry h6 {
+  color: #212121;
+  line-height: 1.45;
+  font-weight: 600;
+}
+article .article-content .entry h1 {
+  font-size: 2.8rem;
+  margin: 3.2rem 0 1.6rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+article .article-content .entry h2 {
+  font-size: 2.2rem;
+  margin: 3rem 0 1.4rem;
+  padding-left: 1.2rem;
+  border-left: 4px solid #f03838;
+}
+article .article-content .entry h3 {
+  font-size: 1.8rem;
+  margin: 2.4rem 0 1.2rem;
+}
+article .article-content .entry h4 {
+  font-size: 1.6rem;
+  margin: 2rem 0 1rem;
+  color: #616161;
+}
+article .article-content .entry p {
+  margin: 1.6rem 0;
+  line-height: 1.9;
+}
+article .article-content .entry ul,
+article .article-content .entry ol {
+  margin: 1.6rem 0;
+  padding-left: 2.6rem;
+}
+article .article-content .entry li {
+  margin: 0.6rem 0;
+  line-height: 1.8;
+}
+article .article-content .entry strong {
+  color: #212121;
+  font-weight: 600;
+}
+article .article-content .entry a {
+  color: #f03838;
+  border-bottom: 1px solid rgba(240,56,56,0.25);
+}
+article .article-content .entry a:hover {
+  border-bottom-color: #f03838;
+}
+article .article-content .entry blockquote {
+  margin: 2rem 0;
+  padding: 1.2rem 1.6rem;
+  background-color: #fafafa;
+  border-left: 4px solid #f03838;
+  color: #616161;
+}
+article .article-content .entry blockquote p {
+  margin: 0.6rem 0;
+}
+article .article-content .entry hr {
+  margin: 3.2rem 0;
+  border: 0;
+  border-top: 1px dashed #dcdcdc;
+}
+article .article-content .entry table {
+  width: 100%;
+  margin: 2rem 0;
+  border-collapse: collapse;
+  border: 1px solid #e0e0e0;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+article .article-content .entry table th,
+article .article-content .entry table td {
+  padding: 0.8rem 1rem;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+  vertical-align: top;
+}
+article .article-content .entry table th {
+  background-color: #f5f5f5;
+  color: #212121;
+  font-weight: 600;
+}
+article .article-content .entry table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+article .article-content .entry code {
+  padding: 0.2rem 0.4rem;
+  background-color: #f6f6f6;
+  border-radius: 3px;
+}
+article .article-content .entry pre {
+  margin: 2rem 0;
+  padding: 1.6rem;
+  overflow-x: auto;
+  background-color: #f6f6f6;
+  border-radius: 4px;
+}
+article .article-content .entry pre code {
+  padding: 0;
+  background-color: transparent;
+}
 article .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -210,5 +319,49 @@ article table pre {
   }
   article code {
     color: #f45542;
+  }
+  article .article-content .entry h1,
+  article .article-content .entry h2,
+  article .article-content .entry h3,
+  article .article-content .entry h4,
+  article .article-content .entry h5,
+  article .article-content .entry h6 {
+    color: #f6f2f5;
+  }
+  article .article-content .entry h4 {
+    color: #cfcfcf;
+  }
+  article .article-content .entry strong {
+    color: #f6f2f5;
+  }
+  article .article-content .entry blockquote {
+    background-color: #1a171a;
+    color: #d6d6d6;
+  }
+  article .article-content .entry hr {
+    border-top-color: #333;
+  }
+  article .article-content .entry table {
+    border-color: #333;
+  }
+  article .article-content .entry table th,
+  article .article-content .entry table td {
+    border-color: #333;
+  }
+  article .article-content .entry table th {
+    background-color: #1c191d;
+    color: #f6f2f5;
+  }
+  article .article-content .entry table tbody tr:nth-child(even) {
+    background-color: #161316;
+  }
+  article .article-content .entry code {
+    background-color: #1c191d;
+  }
+  article .article-content .entry pre {
+    background-color: #1c191d;
+  }
+  article .article-content .entry pre code {
+    background-color: transparent;
   }
 }
